@@ -2,10 +2,12 @@
 
 Blog Post created in Python with Django Framework.
 
-##Description
+## Description
 
 A blog post made with Django. It allows registered users to make posts, save them as drafts and publish then
-automatically or at the scheduled times. Owners of the posts can also delete and update them.
+automatically or at the scheduled times.
+Owners of the posts can also delete and update them.
+Django admin can be used to manage users.
 
 
 ## Getting Started
@@ -32,7 +34,8 @@ Windows
 python -m venv myvenv
 ```
 
-Execute the virtual environment
+
+#### Execute the virtual environment
 
 Linux and OSX
 ```
@@ -44,11 +47,13 @@ Windows
 myvenv\Scripts\activate
 ```
 
-Inside the virtual environment, verify the last version of pip is installed
+
+#### Inside the virtual environment, verify the last version of pip is installed
 
 ```
 python -m pip install --upgrade pip
 ```
+
 
 Install Django
 
@@ -56,11 +61,13 @@ Install Django
 pip install -r requirements.txt
 ```
 
+
 Create the tables for the models in the database
 
 ```
 python manage.py migrate
 ```
+
 
 Create a superuser for the database:
 
@@ -68,11 +75,13 @@ Create a superuser for the database:
 python manage.py createsuperuser
 ```
 
+
 Run the server
 
 ```
 python manage.py runserver
 ```
+
 
 Access locally to the Blog Post at
 
@@ -83,6 +92,4 @@ http://127.0.0.1:8000/
 
 ## Acknowledgments
 
-* This blog was developed following the tutorial of DjangoGirls
-
-[Django Girls](https://tutorial.djangogirls.org/en/)
+* This blog was developed following the tutorial of [Django Girls](https://tutorial.djangogirls.org/en/)
