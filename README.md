@@ -61,6 +61,11 @@ Install Django
 pip install -r requirements.txt
 ```
 
+Make Migrations
+
+```
+python manage.py makemigrations
+```
 
 Create the tables for the models in the database
 
