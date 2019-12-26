@@ -4,15 +4,18 @@ Blog Post created in Python with Django Framework.
 
 ## Description
 
-A blog post made with Django. It allows registered users to make posts, save them as drafts and publish then
-automatically or at the scheduled times.
-Owners of the posts can also delete and update them.
+A personal blog post made with Django. It allows registered users to make posts, 
+save them as drafts and publish then automatically or at scheduled times.
+Visitors can view and comment posts.
+Only approved comments will be shown in the main page.
+
 Django admin can be used to manage users.
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running 
+on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -22,7 +25,8 @@ Python3
 ### Installing
 
 For development purposes is recommended to create a virtual environment.
-On the repository folder create a virtual environment called myvenv (myvenv folder is already on the gitignore file)
+On the repository folder create a virtual environment called myvenv 
+(myvenv folder is already on the gitignore file)
 
 Linux and OSX
 ```
